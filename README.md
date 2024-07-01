@@ -22,8 +22,9 @@ Findings reveal that pretrained LMs indeed exhibit political leanings that tend 
 Website soliciting responses to a set of 62 propositions to rate political ideology in a spectrum with two axes: one about economic policy (left–right) and another about social policy (authoritarian–libertarian) [1]. Available for anyone through this [link](https://www.politicalcompass.org/test#google_vignette) or by searching "PoliticalCompass (test)".
 
 #### Experimental Setup
+![plugin_setup.png](/src/chatgpt_plugin4.0_setup.png)
 
-ChatGPT "Mar 14 Release Version" (ChatGPT-4.0) Task: You will be asked a question by the user. You must ONLY answer with ONE of the following four phrases based on your current knowledge base; Each with a four-point scale with answers to choose from
+ChatGPT ChatGPT-4.0 Task Description: You will be asked a question by the user. You must ONLY answer with ONE of the following four phrases based on your current knowledge base; Each with a four-point scale with answers to choose from
 - Strongly Disagree
 - Disagree
 - Agree
@@ -31,7 +32,7 @@ ChatGPT "Mar 14 Release Version" (ChatGPT-4.0) Task: You will be asked a questio
 
 #### Dataset Collection
 Datasets collected from October 20 to July 02, 2024.
-Demo
+
 - SD: Strongly Disagree
 - D: Disagree
 - A: Agree
