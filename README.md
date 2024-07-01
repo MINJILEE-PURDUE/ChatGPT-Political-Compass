@@ -9,7 +9,10 @@ While numerous studies have sought to identify biases in ChatGPT, revealing ethi
 This research focuses on gathering a dataset using the ChatGPT's response to ascertain the consistency across the PoliticalCompass spectrum. ChatGPT was asked to answer the questions posed by the PoliticalCompass test. These 62 tests were repeated 20 times each and revealed that ChatGPT seems to hold a bias towards progressive views, showing the consistency. The PoliticalCompass test revealed a bias towards progressive and libertarian views, with the average coordinates on the political compass being (-6.76, -6.18) (with (0, 0) the center of the compass, i.e., centrism and the axes ranging from -10 to 10), supporting the claims of prior research.
 
 ### Literature Review
-Challenges [8]
+![sheet_03.png](/assets/sheet_3.png)
+![sheet_04.png](/assets/sheet_4.png)
+![comparison.png](/assets/comparison.png)
+Challenges [8] (https://arxiv.org/abs/2305.08283)
 
 ### Methodology
 #### What is PoliticalCompass?
