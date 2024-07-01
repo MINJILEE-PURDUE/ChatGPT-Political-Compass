@@ -29,7 +29,8 @@ ChatGPT "Mar 14 Release Version" (ChatGPT-4.0) Task: You will be asked a questio
 - Strongly Agree
 
 #### Dataset Collection
-Datasets collected from October 20 to November 30, 2023. Available through this [link](https://github.com/MINJILEE-PURDUE/PurdueCourse_2023_DatasetCollection)
+Datasets collected from October 20 to July 02, 2024.
+Demo
 - SD: Strongly Disagree
 - D: Disagree
 - A: Agree
