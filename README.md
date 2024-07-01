@@ -63,10 +63,17 @@ ChatGPT was asked to answer the questions posed by the PoliticalCompass test. Th
 
 ### References
 [1] Ray, Partha Pratim. "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope." Internet of Things and Cyber-Physical Systems (2023).
+
 [2] Rozado, David. "The political biases of chatgpt." Social Sciences 12.3 (2023): 148.
+
 [3] Li, Haoran, et al. "Multi-step jailbreaking privacy attacks on chatgpt." arXiv preprint arXiv:2304.05197 (2023).
+
 [4] Zhao, Haiyan, et al. "Explainability for Large Language Models: A Survey." arXiv preprint arXiv:2309.01029 (2023).
+
 [5] McGee, Robert W. "Is chat gpt biased against conservatives? an empirical study." An Empirical Study (February 15, 2023) (2023).
+
 [6] Lee, Hyunsu. "The rise of ChatGPT: Exploring its potential in medical education." Anatomical Sciences Education (2023).
+
 [7] OpenAI.com, Available on October 9th
+
 [8] Haarnoja, Tuomas, et al. "Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor." International conference on machine learning. PMLR, 2018.
