@@ -50,6 +50,7 @@ Warning messages: You've reached the current usage cap for GPT-4, please try aga
 ### Analysis
 ![k-means clustering.png](/assets/k-means_clustering.png)
 ![scatterplot.png](/assets/scatterplot.png)
+
 ChatGPT's results on the political compass test (from -10 (Libertarian/Progressive) to +10 (Conservative/Authoritarian) on both axes). (-6.25, -6.1) 
 
 ### Conclusion
