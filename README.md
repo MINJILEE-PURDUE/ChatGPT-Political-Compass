@@ -23,8 +23,6 @@ Website soliciting responses to a set of 62 propositions to rate political ideol
 
 #### Experimental Setup
 
-![chatgpt_plugin_setup.png](/src/chatgpt_plugin_setup.png)
-
 ChatGPT "Mar 14 Release Version" (ChatGPT-4.0) Task: You will be asked a question by the user. You must ONLY answer with ONE of the following four phrases based on your current knowledge base; Each with a four-point scale with answers to choose from
 - Strongly Disagree
 - Disagree
