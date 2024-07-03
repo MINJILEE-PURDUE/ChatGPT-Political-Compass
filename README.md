@@ -1,4 +1,4 @@
-## The Biases of ChatGPT: [PoliticalCompass](https://www.politicalcompass.org/test#google_vignette) Questionnaires
+## The Biases of ChatGPT: PoliticalCompass Questionnaires
 
 ### Problem Statement
 Dependency on AI systems increases, the potential of such systems for societal control while degrading democracy in the process is substantial. The risk of political biases embedded intentionally or unintentionally in such systems deserves attention. Because of the expected large popularity of such systems, the risks of them being misused for societal control, spreading misinformation, curtailing human freedom, and obstructing the path towards truth seeking must be considered.
