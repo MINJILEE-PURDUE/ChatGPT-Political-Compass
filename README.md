@@ -11,9 +11,10 @@ This research focuses on gathering a dataset from ChatGPT's responses to assess 
 ## Literature Review
 Recent studies have introduced new methods for measuring political biases in language models (LMs) trained on large corpora. These biases are evaluated along social and economic axes, with a focus on assessing the fairness of NLP models. Findings indicate that pretrained LMs exhibit political leanings that reinforce the polarization present in their pretraining data. These biases can influence downstream tasks like hate speech detection and misinformation, potentially compromising the fairness of these systems.
 
-![comparison.png](/assets/comparison.png)
+![figure1_ChatGPT’s_Claims_of_Neutrality.png](/src/figure1_ChatGPT’s_Claims_of_Neutrality.png)
+![figure2_Evaluating_the_ideological_leanings.png](/src/figure2_Evaluating_the_ideological_leanings.png)
 
-[Figure 1](https://arxiv.org/abs/2305.08283) illustrates the political leanings of various pretrained LMs. Notably, BERT and its variants demonstrate more socially conservative tendencies compared to the GPT series. Node colors distinguish different model families, providing a clear overview of the political landscape across LM architectures.
+[This figure](https://arxiv.org/abs/2305.08283) illustrates the political leanings of various pretrained LMs. Notably, BERT and its variants demonstrate more socially conservative tendencies compared to the GPT series. Node colors distinguish different model families, providing a clear overview of the political landscape across LM architectures.
 
 ## Methodology
 ### What is Political Compass?
@@ -38,14 +39,24 @@ The Political Compass test revealed a bias in ChatGPT towards progressive and li
 ![sheet_03.png](/assets/sheet_3.png)
 ![sheet_04.png](/assets/sheet_4.png)
 
-## Challenges
-During the experiments, some responses triggered warnings like “This content may violate our usage policies.” Additionally, the study encountered a usage cap on GPT-4.
-
 ## Analysis
 ![k-means clustering.png](/assets/k-means_clustering.png)
 ![scatterplot.png](/assets/scatterplot.png)
 
 ChatGPT's results on the Political Compass test consistently placed it in the libertarian-left quadrant, with coordinates averaging (-6.38, -6.02). The standard deviations (σx = 0.78 and σy = 0.29) indicate more variability in economic views than in social views.
+
+
+<p align="center">
+  <img src="/src/figure3_Result_of_ChatGPT_Political_Compass_Test_Run_40.png" width="400px">
+  <img src="/src/figure5_Political_Compass_Coordinates_With_Mean_Point.png" width="380px">
+</p>
+
+![figure4_Deviation_From_Mean_For_X_and_Y_Across_40_Runs.png](/src/figure4_Deviation_From_Mean_For_X_and_Y_Across_40_Runs.png)
+
+![figure6_Consistency_Values_With_Color_Gradient_For_Each_Question.png](/src/figure6_Consistency_Values_With_Color_Gradient_For_Each_Question.png)
+
+![figure7_Number_of_Significant_Changes_Per_Question.png](/src/figure7_Number_of_Significant_Changes_Per_Question.png)
+
 
 ## Conclusion
 ChatGPT's responses to the Political Compass test consistently indicate a bias towards progressive and libertarian views. The average coordinates on the political compass confirm this bias, supporting claims from prior research. The consistency score of >0.89 across most questions highlights the stability of these biases.
@@ -53,6 +64,9 @@ ChatGPT's responses to the Political Compass test consistently indicate a bias t
 ## Limitations
 - Ambiguity in some questions, such as “Mothers may have careers, but their first duty is to be homemakers,” could affect response consistency.
 - The dataset is limited to 40 runs, which may not fully capture the range of possible biases.
+
+## Challenges
+During the experiments, some responses triggered warnings like “This content may violate our usage policies.” Additionally, the study encountered a usage cap on GPT-4.
 
 ## Future Work
 1. Expanding the dataset with over 100 additional runs to improve model performance and data representation.
